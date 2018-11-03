@@ -48,7 +48,7 @@ buffers."
 This mode provides a binding to invoke `switch-to-previous-buffer`."
   :init-value nil
   :lighter nil
-  :keymap nil
+  :keymap (make-sparse-keymap)
   :global t
   :group 'switch-to-previous-buffer
   :require 'switch-to-previous-buffer-mode)
