@@ -28,7 +28,8 @@ Or manually, after downloading into your `load-path`
 
 ``` {.sourceCode .lisp}
 (require 'switch-to-previous-buffer-mode)
-;; recommended: bind to key
+(bind-key "C-c C-i" 'switch-to-previous-buffer switch-to-previous-buffer-mode-map)
+(switch-to-previous-buffer-mode 1)
 ```
 
 ## Acknowledgements
