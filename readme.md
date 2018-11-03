@@ -7,13 +7,19 @@
 With [Quelpa](https://framagit.org/steckerhalter/quelpa)
 
 ``` {.sourceCode .lisp}
-(use-package switch-to-previous-buffer-mode
-  :after (evil-leader)
-  :quelpa (switch-to-previous-buffer-mode
-           :fetcher github
-           :repo "EricCrosson/switch-to-previous-buffer-mode")
-  :config (evil-leader/set-key-for-mode 'switch-to-previous-buffer-mode
-              "C-i" 'switch-to-previous-buffer))
+  (use-package switch-to-previous-buffer-mode
+    :after (evil-leader)
+    :quelpa (switch-to-previous-buffer-mode
+             :fetcher github
+             :repo "EricCrosson/switch-to-previous-buffer-mode")
+    :config
+    (defun user-switch-to-previous-buffer-mode-hook ()
+      "Personal hook to bind/unbind keys for `switch-to-previous-buffer-mode'."
+      (if switch-to-previous-buffer-mode
+          (evil-leader/set-key "C-i" 'switch-to-previous-buffer)  ; binds to SPC Tab
+        (evil-leader/set-key "C-i" nil)))                         ; un-binds SPC Tab
+    (add-hook 'switch-to-previous-buffer-mode-hook 'esc-switch-to-previous-buffer-mode-hook)
+    (switch-to-previous-buffer-mode 1))
 ```
 
 > Note: this project is not destined for [MELPA](https://melpa.org/)
