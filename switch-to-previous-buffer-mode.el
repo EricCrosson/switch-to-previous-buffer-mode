@@ -5,7 +5,7 @@
 ;; Author: Eric Crosson <eric.s.crosson@utexas.com>
 ;; Version: 1.0.0
 ;; Keywords: convenience
-;; URL: https://githjub.com/EricCrosson/switch-to-previous-buffer-mode
+;; URL: https://github.com/EricCrosson/switch-to-previous-buffer-mode
 ;; Package-Requires: ((emacs "24"))
 ;;
 ;;
