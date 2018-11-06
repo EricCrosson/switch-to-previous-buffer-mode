@@ -30,6 +30,10 @@ Or manually, after downloading into your `load-path`
 (bind-key "C-c C-i" 'switch-to-previous-buffer switch-to-previous-buffer-mode-map)
 ```
 
+## Example
+
+![Example](https://raw.githubusercontent.com/EricCrosson/switch-to-previous-buffer-mode/master/img/demo.gif)
+
 ## Acknowledgements
 
 This package is a modular implementation of a
