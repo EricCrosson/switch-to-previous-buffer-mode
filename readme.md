@@ -1,4 +1,4 @@
-# switch-to-previous-buffer-mode [![Build Status](https://travis-ci.org/EricCrosson/switch-to-previous-buffer-mode.svg?branch=master)](https://travis-ci.org/EricCrosson/switch-to-previous-buffer-mode)
+# switch-to-previous-buffer-mode [![Build Status](https://travis-ci.org/EricCrosson/switch-to-previous-buffer-mode.svg?branch=master)](https://travis-ci.org/EricCrosson/switch-to-previous-buffer-mode) [![Version](https://img.shields.io/github/tag/EricCrosson/switch-to-previous-buffer-mode.svg)](https://github.com/EricCrosson/switch-to-previous-buffer-mode/releases)
 
 > Alt-Tab for Buffers
 
