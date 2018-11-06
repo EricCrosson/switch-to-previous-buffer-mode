@@ -3,7 +3,7 @@
 ;;; Copyright (C) 2018  Free Software Foundation, Inc.
 ;;
 ;; Author: Eric Crosson <eric.s.crosson@utexas.com>
-;; Version: 1.0.1
+;; Version: 1.0.2
 ;; Keywords: convenience
 ;; URL: https://github.com/EricCrosson/switch-to-previous-buffer-mode
 ;; Package-Requires: ((emacs "24"))
