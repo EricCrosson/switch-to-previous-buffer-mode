@@ -46,7 +46,7 @@ buffers."
 (define-minor-mode switch-to-previous-buffer-mode
   "Toggle Switch to Previous Buffer mode.
 This mode provides a binding to invoke `switch-to-previous-buffer`."
-  :init-value nil
+  :init-value t
   :lighter nil
   :keymap (make-sparse-keymap)
   :global t

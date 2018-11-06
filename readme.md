@@ -18,8 +18,7 @@ With [Quelpa](https://framagit.org/steckerhalter/quelpa)
       (if switch-to-previous-buffer-mode
           (evil-leader/set-key "C-i" 'switch-to-previous-buffer)  ; binds to SPC Tab
         (evil-leader/set-key "C-i" nil)))                         ; un-binds SPC Tab
-    (add-hook 'switch-to-previous-buffer-mode-hook 'esc-switch-to-previous-buffer-mode-hook)
-    (switch-to-previous-buffer-mode 1))
+    (add-hook 'switch-to-previous-buffer-mode-hook 'user-switch-to-previous-buffer-mode-hook))
 ```
 
 > Note: this project is not destined for [MELPA](https://melpa.org/)
@@ -29,7 +28,6 @@ Or manually, after downloading into your `load-path`
 ``` {.sourceCode .lisp}
 (require 'switch-to-previous-buffer-mode)
 (bind-key "C-c C-i" 'switch-to-previous-buffer switch-to-previous-buffer-mode-map)
-(switch-to-previous-buffer-mode 1)
 ```
 
 ## Acknowledgements
