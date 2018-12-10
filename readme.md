@@ -34,7 +34,7 @@ Or manually, after downloading into your `load-path`
 
 ![Example](https://raw.githubusercontent.com/EricCrosson/switch-to-previous-buffer-mode/master/img/demo.gif)
 
-## Acknowledgements
+## Acknowledgments
 
 This package is a modular implementation of a
 [Prelude feature](http://emacsredux.com/blog/2013/04/28/switch-to-previous-buffer/).
